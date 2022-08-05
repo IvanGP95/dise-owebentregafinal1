@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ByondStudio - Servicios</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <!--Header Section-->
+    <header>
+      <div class="navbar">
+        <a href="../index.html" class="logo">
+          <img src="../imagenes/Logo/Byond isotipo.png" class="logoimg" />
+          <img src="../imagenes/Logo/Byond texto.png" class="logoimg" />
+        </a>
+        <nav id="menu">
+          <ul>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
+            <li>
+              <a href="./quienessomos.html" class="nav-link">Quienes Somos?</a>
+            </li>
+            <li><a href="./servicios.html" class="nav-link">Servicios</a></li>
+            <li><a href="./branding.html" class="nav-link">Branding</a></li>
+            <li><a href="./contacto.html" class="nav-link">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Formulario Cotizador-->
+    <div class="servicios__h1">
+      <h1>Personaliza tu plan</h1>
+    </div>
+    <section class="servicios__form">
+      <div class="servicios__cotizador">
+        <div class="programas">
+          <div class="paquetes" id="Starter">
+            <input
+              type="radio"
+              name="paquetes_radio"
+              class="paquetesRadio"
+              id="starter"
+            />
+            <h3 class="servicios__h3">
+              Byond <br />
+              Starter
+            </h3>
+            <ul class="servicios__paquetesList">
+              <li>✓ One Page / Landing Page</li>
+              <li>✓ Diseño Personalizado</li>
+              <li>✓ Formulario de Contacto</li>
+              <li>✓ Correos Personalizados</li>
+              <li>✓ Diseño Responsive</li>
+            </ul>
+          </div>
+          <div class="paquetes" id="byondEntrepeneur">
+            <input
+              type="radio"
+              name="paquetes_radio"
+              class="paquetesRadio"
+              id="entrepeneur"
+            />
+            <h3 class="servicios__h3">
+              Byond <br />
+              Entrepeneur
+            </h3>
+            <ul class="servicios__paquetesList">
+              <h3>Beneficios Entrepeneur</h3>
+              <li>✓ Hasta 5 Secciones</li>
+              <li>✓ Seo Básico</li>
+              <li>✓ Galeria de imágenes</li>
+              <li>
+                ✓ Soporte actualizable gratis 1 año (No incluye re-diseño)
+              </li>
+            </ul>
+          </div>
+          <div class="paquetes" id="byondBusiness">
+            <input
+              type="radio"
+              name="paquetes_radio"
+              class="paquetesRadio"
+              id="business"
+            />
+            <h3 class="servicios__h3">
+              Byond <br />
+              Business
+            </h3>
+            <ul class="servicios__paquetesList">
+              <h3>Beneficios Entrepeneur</h3>
+              <li>✓ Secciones Ilimitadas</li>
+              <li>✓ Página Interactiva</li>
+              <li>✓ Google Analytics</li>
+              <li>✓ Base de datos</li>
+              <li>✓ Posicionamiento Organico SEO</li>
+            </ul>
+          </div>
+          <div class="paquetes" id="byondCommerce">
+            <input
+              type="radio"
+              name="paquetes_radio"
+              class="paquetesRadio"
+              id="commerce"
+            />
+            <h3 class="servicios__h3">
+              Byond <br />
+              Commerce
+            </h3>
+            <ul class="servicios__paquetesList">
+              <h3>Beneficios Business</h3>
+              <li>✓ Carrito de Compras</li>
+              <li>✓ De 30-50 productos</li>
+              <li>✓ Integración de Pagos</li>
+              <li>✓ Alta masiva de productos y categorías</li>
+            </ul>
+          </div>
+          <div class="paquetes" id="byondImagination">
+            <input
+              type="radio"
+              name="paquetes_radio"
+              class="paquetesRadio"
+              id="imagination"
+            />
+            <h3 class="servicios__h3">
+              Byond <br />
+              Your Imagination
+            </h3>
+            <ul class="servicios__paquetesList">
+              <h3>¡¡Todos los Beneficios!!</h3>
+              <li>✓ Hasta 200 productos</li>
+              <li>✓ Autoadministrable</li>
+              <li>✓ Registro de Usuarios</li>
+              <li>✓ Historial de Pedidos</li>
+              <li>✓ Optimización SEO</li>
+            </ul>
+          </div>
+        </div>
+        <h2 class="seh3">Servicios Extra</h2>
+        <div class="servicios__marca">
+          <div class="servicios__contenedor">
+            <div class="servicios__contenedorRadios">
+              <h3>Identidad de Marca</h3>
+              <p><input type="radio" name="marca" />Ya tengo mi imagen</p>
+              <p>
+                <input type="radio" name="marca" />Necesito diseño de imagen
+              </p>
+            </div>
+            <div class="servicios__extras">
+              <h3>Google Services:</h3>
+              <p>
+                <input type="checkbox" name="Google Analytics" /> Google
+                Analytics
+              </p>
+              <p>
+                <input type="checkbox" name="Google Search Console" /> Google
+                Search Console
+              </p>
+              <p>
+                <input type="checkbox" name="Google Workspace" /> Google
+                Workspace
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="servicios__btnAgregar" type="button" onclick="">
+          Agregar
+        </button>
+        <div class="cotizador__titulo">
+            <h2 class="servicios__quote">Solicita tu cotizacion</h2>
+        </div>
+        <table class="table" id="tabla">
+            <thead class="theadInverse">
+                <tr>
+                    <th>Plan</th>
+                    <th>Diseño de Marca</th>
+                    <th>Google Services</th>
+                </tr>
+            </thead>
+      </div>
+    </section>
+    <button class="servicios__btnEnviar">
+        Enviar
+    </button>
+    <footer class="footer">
+      <p>2022 Powered By ByondStudio. All rights reserved</p>
+    </footer>
+  </body>
+</html>

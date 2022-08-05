@@ -1,0 +1,509 @@
+/* ------------------------------------ Main ------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 3;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo{
+    position: absolute;
+    padding: 15px 50px;
+}
+
+.logoimg{
+    height: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+li a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.1s;
+}
+
+/* ------------------------------------ Footer ------------------------------------*/
+
+footer{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    padding-left: 0%;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ------------------------------------ Hero ------------------------------------*/
+
+.hero{
+    font-size: 50px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: 
+    linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./imagenes/Logo/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 80px;
+    font-weight: bold;
+}   
+
+/* ------------------------------------ Section 1 ------------------------------------*/
+
+.section1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section1__imgs{
+    height: auto;
+    padding-bottom: 100px;
+    align-items: center;
+    width: 50%;
+}
+
+.section1__dwig{
+    margin-top: 100px;
+    margin-left: 250px;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.section1__preview{
+    border-radius: 10px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 400px;
+    top: 950px;
+}
+
+.section1__text{
+    display: block;
+    width: 50%;
+    padding-right: 250px;
+    justify-content: flex-start;
+    line-height: 30px;
+    margin-top: 120px;
+}
+
+.section1__cotizar{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.section1 a{
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+}
+
+.section1 a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ------------------------------------ Section 2 ------------------------------------*/
+
+.section2{
+    display: flex;
+    width: 100%;
+    padding: 130px 0px 80px 30px;
+}
+.section2__imgs{
+    height: 200px;
+    width: 200px;
+}
+
+.section2__container{
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section2__item{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* ------------------------------------ Section 3 ------------------------------------*/
+
+.section3{
+    background-color: #41099D;
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+.section3__h2{
+    font-size: 50px;
+}
+
+.section3__btn{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: white;
+    color: #41099D;
+    font-size: 20px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.section3__btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.section3__list ul{
+    font-size: 20px;
+}
+
+.section3__list li{
+    margin: 50px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.formulario{
+    padding-top: 100px;
+    padding-left: 50px;
+    border-radius: 20px;
+    background-color: #41099D;
+    color: white;
+}
+
+/* ------------------------------------ Servicios__Form ------------------------------------*/
+
+.servicios__h1{
+    color: black;
+    padding: 100px 60px 25px 60px;
+    height: 50px;
+}
+
+.servicios__form{
+    display: flex;
+}
+
+.servicios__h1 h1{
+    background-color: white;
+    font-size: 50px;
+    width: 500px;
+    margin-left: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.servicios__cotizador{
+    border-style: solid;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 1320px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+.programas{
+    margin: 50px 20px 50px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paquetes{
+    width: 230px;
+    height: 400px;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 5px 2px 10px 1px grey;
+}
+
+.paquetes input[type="radio"]{
+    display: flex;
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 10px;
+    border: 0;
+}
+
+.paquetesRadio{
+    display: flex;
+}
+
+.servicios__h3{
+    margin-top: 30px;
+    color: white;
+    background-image: linear-gradient(to right top, #061d77, #161c81, #24198b, #331494, #41099d);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.paquetes ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.paquetes ul li {
+    padding-top: 15px;
+}
+
+
+
+
+/* ------------------------------------ Servicios__ServiciosExtra ------------------------------------*/
+
+.seh3{
+    text-align: center;
+}
+
+.servicios__contenedor{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.servicios__contenedorRadios{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.servicios__marca{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: black solid;
+}
+
+.servicios__marca p{
+    padding-top: 15px;
+}
+
+.servicios__extras{
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* ------------------------------------ Tabla Cotizar Enviar ------------------------------------*/
+
+
+
+/* ------------------------------------ Servicios__BNT Agregar ------------------------------------*/
+
+.servicios__btnAgregar {
+    display: flex;
+	box-shadow:inset 0px 1px 0px 0px #132c8e;
+	background:linear-gradient(to bottom, #061d77 5%, #460f9d 100%);
+	background-color:#061d77;
+	border-radius:6px;
+	border:1px solid #41099d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:14px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #331494;
+    margin: 100px 50px 30px 580px;
+}
+.servicios__btnAgregar:hover {
+	background:linear-gradient(to bottom, #460f9d 5%,#061d77 100%);
+	background-color:#460f9d;
+}
+.servicios__btnAgregar:active {
+	position:relative;
+	top:1px;
+}
+
+/* ------------------------------------ Tabla Cotizadora ------------------------------------*/
+
+.servicios__quote{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    padding-bottom: 300px;
+    justify-content: center;
+    align-content: center;
+ }
+ th, td {
+    width: 25%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ th {
+    background-color: black;
+    color: white;
+ }
+
+ .servicios__btnEnviar {
+	box-shadow:inset 0px 1px 0px 0px #132c8e;
+	background:linear-gradient(to bottom, #061d77 5%, #460f9d 100%);
+	background-color:#061d77;
+	border-radius:6px;
+	border:1px solid #41099d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:14px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #331494;
+    margin: 280px 50px 0px 580px;
+    position: absolute;
+}
+.servicios__btnEnviar:hover {
+	background:linear-gradient(to bottom, #460f9d 5%,#061d77 100%);
+	background-color:#460f9d;
+}
+.servicios__btnEnviar:active {
+	position:relative;
+	top:1px;
+}
+
+/* ------------------------------------ Quienes Somos ------------------------------------*/
+
+.aboutus{
+    display: inline-flex;
+    padding: 100px 50px 100px 50px;
+    align-items: center;
+}
+
+.aboutus img{
+    width: 600px;
+    height: 600px;
+}
+
+.aboutus__text p{
+    padding-top: 10px;
+}
+
+/* ------------------------------------ Branding ------------------------------------*/
+.branding__section1{
+    display: inline-flex;
+    padding: 100px 50px 100px 50px;
+    align-items: center;
+}
+
+.branding__section1 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.branding__section1__text{
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.branding__section2{
+    padding: 10px 70px 100px 70px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.branding__section2 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.branding__section2__text{
+    width: 50%;
+}
