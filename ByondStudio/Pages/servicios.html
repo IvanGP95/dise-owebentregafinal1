@@ -144,36 +144,43 @@
         <h2 class="seh3">Servicios Extra</h2>
         <div class="servicios__marca">
           <div class="servicios__contenedor">
-            <div class="servicios__contenedorRadios">
-              <h3>Identidad de Marca</h3>
-              <p><input type="radio" name="marca" />Ya tengo mi imagen</p>
-              <p>
-                <input type="radio" name="marca" />Necesito diseño de imagen
-              </p>
-            </div>
+              <div class="marca">
+                <h3>Identidad de Marca</h3>
+                <p><input type="radio" name="marca" />Ya tengo mi imagen</p>
+                <p>
+                  <input type="radio" name="marca" />Necesito diseño de imagen
+                </p>
+              </div>
+
             <div class="servicios__extras">
-              <h3>Google Services:</h3>
-              <p>
-                <input type="checkbox" name="Google Analytics" /> Google
-                Analytics
-              </p>
-              <p>
-                <input type="checkbox" name="Google Search Console" /> Google
-                Search Console
-              </p>
-              <p>
-                <input type="checkbox" name="Google Workspace" /> Google
-                Workspace
-              </p>
+              <div class="google">
+                <h3>Google Services:</h3>
+                <p>
+                  <input type="checkbox" name="Google Analytics" /> Google
+                  Analytics
+                </p>
+                <p>
+                  <input type="checkbox" name="Google Search Console" /> Google
+                  Search Console
+                </p>
+                <p>
+                  <input type="checkbox" name="Google Workspace" /> Google
+                  Workspace
+                </p>
+              </div>
+
             </div>
           </div>
         </div>
+        <div class="botonAgregar">
         <button class="servicios__btnAgregar" type="button" onclick="">
           Agregar
         </button>
+        </div>
         <div class="cotizador__titulo">
             <h2 class="servicios__quote">Solicita tu cotizacion</h2>
         </div>
+        <div class="container">
         <table class="table" id="tabla">
             <thead class="theadInverse">
                 <tr>
@@ -181,14 +188,22 @@
                     <th>Diseño de Marca</th>
                     <th>Google Services</th>
                 </tr>
-            </thead>
+            </thead>            
+        </div>
+        
+      </div>
+      <div class="botonEnviar">
+        <button class="servicios__btnEnviar">
+          Enviar
+        </button>
       </div>
     </section>
-    <button class="servicios__btnEnviar">
-        Enviar
-    </button>
+    
+
+
     <footer class="footer">
-      <p>2022 Powered By ByondStudio. All rights reserved</p>
+        <p>2022 Powered By ByondStudio. All rights reserved</p>
     </footer>
+
   </body>
 </html>

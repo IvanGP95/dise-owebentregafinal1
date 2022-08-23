@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
 }
 
 a{
@@ -57,25 +58,9 @@ nav ul li a {
 li a:hover{
     color: white;
     background-color: black;
-    transition: 0.1s;
+    transition: .5s;
 }
 
-/* ------------------------------------ Footer ------------------------------------*/
-
-footer{
-    background-color: black;
-    font-family: sans-serif;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    position: fixed;
-    padding-left: 0%;
-    bottom: 0;
-    width: 100%;
-}
 
 /* ------------------------------------ Hero ------------------------------------*/
 
@@ -97,7 +82,12 @@ footer{
     background-position: center center;
     padding-top: 80px;
     font-weight: bold;
+    transition: 1.5s ease;
 }   
+
+.hero:hover{
+    font-size: 60px;
+}
 
 /* ------------------------------------ Section 1 ------------------------------------*/
 
@@ -241,13 +231,20 @@ footer{
 /* ------------------------------------ Servicios__Form ------------------------------------*/
 
 .servicios__h1{
+    display: flex;
+    background-color: #ffffff;
     color: black;
     padding: 100px 60px 25px 60px;
     height: 50px;
+    flex-wrap: wrap;
 }
 
 .servicios__form{
     display: flex;
+    width: 100%;
+    justify-content: center; 
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .servicios__h1 h1{
@@ -262,9 +259,7 @@ footer{
 
 .servicios__cotizador{
     border-style: solid;
-    margin-left: 60px;
-    margin-right: 60px;
-    width: 1320px;
+    width: 100%;
     border-width: 5px;
     border-color: black;
     border-radius: 30px;
@@ -272,9 +267,10 @@ footer{
 }
 
 .programas{
-    margin: 50px 20px 50px 20px;
+    margin: 100px 20px 50px 20px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .paquetes{
@@ -289,6 +285,7 @@ footer{
     align-content: center;
     box-shadow: 5px 2px 10px 1px grey;
 }
+
 
 .paquetes input[type="radio"]{
     display: flex;
@@ -336,22 +333,10 @@ footer{
     text-align: center;
 }
 
-.servicios__contenedor{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.servicios__contenedorRadios{
-    display: flex;
-    flex-direction: column;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
 .servicios__marca{
     width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -359,14 +344,36 @@ footer{
     border: black solid;
 }
 
+
+.servicios__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.servicios__contenedorRadios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
 .servicios__marca p{
     padding-top: 15px;
 }
 
 .servicios__extras{
-    flex-direction: row;
+    display: flex;
     margin-left: 80px;
     margin-right: 80px;
+    flex-wrap: wrap;
 }
 
 /* ------------------------------------ Tabla Cotizar Enviar ------------------------------------*/
@@ -374,6 +381,14 @@ footer{
 
 
 /* ------------------------------------ Servicios__BNT Agregar ------------------------------------*/
+
+div .botonAgregar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
 
 .servicios__btnAgregar {
     display: flex;
@@ -390,7 +405,6 @@ footer{
 	padding:14px 50px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #331494;
-    margin: 100px 50px 30px 580px;
 }
 .servicios__btnAgregar:hover {
 	background:linear-gradient(to bottom, #460f9d 5%,#061d77 100%);
@@ -429,8 +443,20 @@ table {
     color: white;
  }
 
+
+ div .botonEnviar{
+    background-color: #061d77;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+
  .servicios__btnEnviar {
 	box-shadow:inset 0px 1px 0px 0px #132c8e;
+    display: flex;
 	background:linear-gradient(to bottom, #061d77 5%, #460f9d 100%);
 	background-color:#061d77;
 	border-radius:6px;
@@ -443,7 +469,6 @@ table {
 	padding:14px 50px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #331494;
-    margin: 280px 50px 0px 580px;
     position: absolute;
 }
 .servicios__btnEnviar:hover {
@@ -507,3 +532,21 @@ table {
 .branding__section2__text{
     width: 50%;
 }
+
+/* ------------------------------------ Footer ------------------------------------*/
+
+footer{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
